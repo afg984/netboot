@@ -17,8 +17,8 @@ package cli
 import (
 	"fmt"
 
+	"github.com/afg984/netboot/pixiecore"
 	"github.com/spf13/cobra"
-	"go.universe.tf/netboot/pixiecore"
 )
 
 var bootCmd = &cobra.Command{

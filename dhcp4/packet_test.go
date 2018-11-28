@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.universe.tf/netboot/pcap"
+	"github.com/afg984/netboot/pcap"
 )
 
 func udpFromPcap(fname string) ([][]byte, error) {
