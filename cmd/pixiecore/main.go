@@ -15,9 +15,9 @@
 package main
 
 import (
-	"go.universe.tf/netboot/pixiecore"
-	"go.universe.tf/netboot/pixiecore/cli"
-	"go.universe.tf/netboot/third_party/ipxe"
+	"github.com/afg984/netboot/pixiecore"
+	"github.com/afg984/netboot/pixiecore/cli"
+	"github.com/afg984/netboot/third_party/ipxe"
 )
 
 func main() {

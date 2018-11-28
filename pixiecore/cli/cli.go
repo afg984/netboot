@@ -20,9 +20,9 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/afg984/netboot/pixiecore"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"go.universe.tf/netboot/pixiecore"
 )
 
 // Ipxe is the set of ipxe binaries for supported firmwares.

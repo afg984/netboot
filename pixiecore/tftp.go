@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.universe.tf/netboot/tftp"
+	"github.com/afg984/netboot/tftp"
 )
 
 func (s *Server) serveTFTP(l net.PacketConn) error {

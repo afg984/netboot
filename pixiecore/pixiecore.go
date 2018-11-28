@@ -23,7 +23,7 @@ import (
 	"sync"
 	"text/template"
 
-	"go.universe.tf/netboot/dhcp4"
+	"github.com/afg984/netboot/dhcp4"
 )
 
 const (

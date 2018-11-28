@@ -2,10 +2,10 @@ package cli
 
 import (
 	"fmt"
+	"github.com/afg984/netboot/dhcp6"
+	"github.com/afg984/netboot/dhcp6/pool"
+	"github.com/afg984/netboot/pixiecore"
 	"github.com/spf13/cobra"
-	"go.universe.tf/netboot/dhcp6"
-	"go.universe.tf/netboot/dhcp6/pool"
-	"go.universe.tf/netboot/pixiecore"
 	"net"
 	"strings"
 	"time"

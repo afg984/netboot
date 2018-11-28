@@ -2,7 +2,7 @@ package pool
 
 import (
 	"fmt"
-	"go.universe.tf/netboot/dhcp6"
+	"github.com/afg984/netboot/dhcp6"
 	"hash/fnv"
 	"math/big"
 	"math/rand"
